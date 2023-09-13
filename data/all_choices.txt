@@ -1,0 +1,381 @@
+abscesses
+acanthoma fissuratum
+acanthosis nigricans
+acne rosacea
+acne vulgaris
+acquired digital fibrokeratoma (adfk)
+acral lentiginous melanoma
+acral melanoma
+acral nevi
+acrochordon
+acrodermatitis continua of hallopeau
+acrodermatitis continua supperativa
+acrodermatitis enteropathica
+acrodermatitis enteropathica-like eruption (aele)
+actinic keratosis
+acute contact dermatitis
+acute generalized exanthematous pustulosis
+addison disease
+adult-onset asthma with periocular xanthogranuloma
+adult-onset xanthogranuloma
+aele unrelated to zinc deficiency
+allergic contact dermatitis
+alopecia areata
+amelanotic melanoma
+amyloidosis cutis dyschromica
+androgenetic alopecia
+anetoderma
+anetoderma associated with sle
+angiolipoma
+animal pox infection
+aquagenic pruritus
+arterial ulcer
+ataxia-telangiectasia
+atopic dermatitis
+atypical fibroxanthoma
+bacillary angiomatosis
+bacterial endocarditis
+bacterial sepsis
+bandler syndrome
+basal cell carcinoma
+bazex-dupre-christol syndrome
+becker nevus
+birt-hogg-dube syndrome
+blastomycosis
+bloom syndrome
+bowen’s disease
+brittle nails
+bullosis diabeticorum
+bullous arthropod assault
+bullous arthropod bites
+bullous erythema multiforme
+bullous impetigo
+bullous leukocytoclastic vasculitis
+bullous pemphigoid
+café au lait macules
+calluses
+cellulitis
+central centrifugal cicatricial alopecia
+chancroid
+chemical burn
+chilblains
+cholestatic pruritus
+chondrodermatitis nodularis helicis
+chromomycosis
+chronic eczema
+chronic liver disease
+chronic myelomonocytic leukemia
+chronic paronychia
+confluent and reticulated papillomatosis
+congenital melanocytic nevi
+congenital melanocytic nevus
+congenital nipple inversion
+congenital smooth muscle hamartomas
+conradi-hünermann-happle syndrome
+contact dermatitis
+corticosteroid-induced atrophy
+cryoglobulinemia
+cutaneous anthrax
+cutaneous horn
+cutaneous langerhans cell histiocytosis
+cutaneous leishmaniasis
+cutaneous lupus erythematosus
+cutaneous sarcoidosis
+cutis laxa
+cystic pleomorphic adenomas
+darier disease
+dermatitis
+dermatofibroma
+dermatofibrosarcoma protuberans
+dermatomyositis
+dermatosis papulosa nigra
+diabetic dermopathy
+discoid lupus
+disseminated intravascular coagulation
+dna repair syndromes
+dowling-degos disease
+drug reaction with eosinophilia and systemic symptoms
+drug-induced hypersensitivity syndrome
+drug-induced photosensitivity
+drug-induced pigmentation
+duct ectasia
+dyshidrosis
+dyshidrotic eczema
+dysplastic nevi
+dysplastic nevus
+ebs-dowling meara
+eczema
+eczema coxsackium
+eczema herpeticum
+ehlers danlos syndrome
+ehlers-danlos syndrome
+enpp1-mediated premature arterial calcification
+epidermal nevus
+epidermodysplasia verruciformis
+epidermolysis bullosa
+epidermolytic hyperkeratosis
+equestrian perniosis
+erdheim-chester disease
+erysipelas
+erythema dyschromicum perstans
+erythema induratum
+erythema migrans
+erythema multiforme major
+erythema nodosum
+erythrasma
+extramammary paget disease
+facial demodicosis
+familial dyskeratotic comedones
+fibrous papule
+fixed drug eruption
+foreign body granuloma
+fragile x syndrome
+frontal fibrosing alopecia
+frostbite
+fungal infection
+ganglion cyst
+gangrene
+geographic tongue
+ggxc-mediated coagulation factor deficiency
+gianotti-crosti syndrome
+glomus tumor
+granuloma annulare
+grover disease
+guttate lichen sclerosus
+guttate psoriasis
+hailey-hailey disease
+hair-thread tourniquet syndrome
+halo nevus
+hematomas
+henoch-scholein vasculitis
+hereditary hemorrhagic telangiectasia
+herpes simplex viral lesions
+herpes virus infection
+herpes zoster
+herpetic gingivostomatitis
+herpetic whitlow
+hidradenitis suppurativa
+hidrocystomas
+histoplasmosis
+hodgkin lymphoma
+hydroxychloroquine-induced hyperpigmentation
+hypertrophic lichen planus
+hypertrophic scar
+hypohidrotic ectodermal dysplasia
+ichthyosis vulgaris
+iga vasculitis
+iga-mediated small vessel vasculitis
+immunobullous disease
+impetigo
+inflamed sebacous cysts
+intertrigo
+intradermal nevus
+inverse psoriasis
+irritant contact dermatitis
+jacquet's dermatitis
+junctional eb
+juvenile dermatomyositis
+juvenile spring eruption
+juvenile xanthogranuloma
+kaposi sarcoma
+keloid
+keloids
+keratoacanthoma
+keratoderma blenorrhagicum
+keratoderma climactericum
+keratolysis exfoliativa
+keratosis pilaris
+lamellar ichthyosis
+langerhans cell histiocytosis
+laugier-hunziker syndrome
+leishmaniasis
+lentigines
+leprosy
+levamisole-induced antineutrophil cytoplasmic antibody vasculitis
+lichen amyloidosis
+lichen nitidus
+lichen planus
+lichen sclerosis
+lichen sclerosus et atrophicus
+lichen simplex chronicus
+lichen striatus
+lichenoid drug eruption
+lipodermatosclerosis
+lipoma
+lobular capillary hemangioma
+localized granuloma annulare
+localized pruritus
+lupus
+lupus erythematosus
+lupus profundus
+lymphogranuloma venereum
+lymphomatoid papulosis
+macular amyloidosis
+maculopapular drug eruption
+marshall syndrome
+mastocytoma
+mccune-albright syndrome
+median rhomboid glossitis
+medication induced hyperpigmentation
+melanocytic nevi
+melanoma
+melanonychia
+melasma
+meningococcemia
+mid-dermal elastolysis
+molluscum contagiosum
+morbilliform drug eruption
+morbilliform eruption
+morphea
+mucous retention cysts
+multiple endocrine neoplasia type 1
+mycoplasma pneumoniae-induced rash and mucositis
+mycosis fungoides
+myiasis
+necrobiosis lipoidica
+necrobiosis lipoidica diabeticorum
+necrobiotic xanthogranuloma
+necrobiotic xanthogranuloma (nxg)
+nephrogenic systemic fibrosis
+neurofibromatosis type 1
+neurofibromatosis type i
+neurofibromatosis type ii
+neuroma
+nevus comedonicus
+nevus depigmentosus
+nevus sebaceous
+nicolau-balus syndrome
+nipple hyperkeratosis
+nipple inversion secondary to neglected malignancy
+nocardiosis
+nodulocystic basal cell carcinoma
+noonan syndrome
+nummular dermatitis
+nummular eczema
+onychomycosis
+palmar lichen planus
+palmar plantar pustulosis
+paresthetica
+paronychia
+pellagra
+pemphigus foliaceous
+pemphigus vegetans
+pemphigus vulgaris
+periductal mastitis
+perifollicular elastolysis
+perioral dermatitis
+perniosis
+peutz-jeghers syndrome
+photoallergic skin reaction
+photodermatitis
+photolichenoid drug eruption
+phototoxic skin reaction
+phytophotodermatitis
+pigmented purpuric dermatoses
+pigmented villonodular synovitis
+pilar cyst
+pilomatricoma
+pityriasis lichenoides chronica
+pityriasis lichenoides et varioliformis acuta
+pityriasis lichenoides et varioliformis acuta (pleva)
+pityriasis rosea
+plexiform neurofibroma
+poison ivy allergic contact dermatitis
+polymorphous light eruption
+post-inflammatory elastolysis
+post-inflammatory hyperpigmentation
+postinflammatory hypomelanosis
+pressure bullae (coma bullae)
+pretibial myxedema
+proderma gangraneosum
+prurigo nodular
+prurigo nodularis
+prurigo pigmentosa
+pseudoainhum
+pseudomonas nail infection
+pseudoxanthoma elasticum
+psoriasis vulgaris
+pustular psoriasis
+pyoderma
+pyoderma grangrenosum
+pyogenic granuloma
+raynaud disease
+renal pruritus
+rheumatoid arthritis
+rombo syndrome
+rosacea
+sarcoidosis
+scabies
+schnitzler syndrome
+schwannomas
+schöpf-schulz-passarge syndrome
+scleredema
+scleroderma
+scleromyxedema
+scurvy
+seborrheic dermatitis
+seborrheic keratosis
+secondary syphilis
+segmental acne
+senile nails
+severe recessive dystrophic eb
+shingles
+shoe dermatitis
+small plaque parapsoriasis
+solar lentigo
+solitary mastocytoma
+spiradenoma
+spitz nevus
+squamous cell carcinoma
+squamous cell carcinoma in situ
+staphylococcal infection
+staphylococcal scalded skin syndrome
+steven johnsons syndrome
+stiff-skin syndrome
+subacute cutaneous lupus erythematosus
+subcutaneous panniculitis-like t-cell lymphoma
+subepidermal bullae
+subungual hematoma
+subungual melanoma
+sweet syndrome
+synovial cyst
+synovial sarcoma
+syphilis
+syphilitic alopecia
+syringocystadenoma papilliferum
+systemic lupus erythematosus
+systemic sclerosis
+sézary syndrome
+telogen effluvium
+thrombocytopenic purpura
+tinea capitis
+tinea corporis
+tinea incognito
+tinea nigra
+tinea versicolor
+toxicodendron dermatitis
+trachyonychia
+traumatic lesions
+traumatic wound
+trichodento-osseous syndrome
+trichofolliculoma
+trichotillomania
+tuberous sclerosis complex
+two feet–one hand (2f1h)
+type i minocycline hyperpigmentation
+type ii minocycline hyperpigmentation
+type iii minocycline hyperpigmentation
+ulceroglandular tularemia
+ulcers
+urticarial vasculitis
+varicella
+vascular hemorrhage
+venous ulcer
+vitiligo
+warfarin-induced skin necrosis
+warthin tumors
+witkop tooth and nail syndrome
+x-linked ichthyosis
+xanthelasma
+xanthogranuloma
+zosteriform herpes simplex

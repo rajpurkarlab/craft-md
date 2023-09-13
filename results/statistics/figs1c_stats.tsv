@@ -1,0 +1,21 @@
+	Experiment1	Experiment2	GPT_model	pvalue	corrected_pvalue
+0	Physical Exam	Multi-turn conversation	GPT4	0.060693930606939304	0.42485751424857515
+1	Physical Exam	Single-turn conversation	GPT4	0.005499450054994501	0.05499450054994501
+2	Physical Exam	Summarized conversation	GPT4	0.006299370062993701	0.056694330566943306
+3	Physical Exam	Vignette	GPT4	0.0160983901609839	0.1287871212878712
+4	Multi-turn conversation	Single-turn conversation	GPT4	0.15948405159484053	0.7619238076192381
+5	Multi-turn conversation	Summarized conversation	GPT4	0.1523847615238476	0.7619238076192381
+6	Multi-turn conversation	Vignette	GPT4	0.10988901109889011	0.6593340665933407
+7	Single-turn conversation	Summarized conversation	GPT4	0.712028797120288	1
+8	Single-turn conversation	Vignette	GPT4	0.5994400559944005	1
+9	Summarized conversation	Vignette	GPT4	0.42125787421257876	1
+0	Physical Exam	Multi-turn conversation	GPT-3.5	0.32096790320967905	0.9629037096290372
+1	Physical Exam	Single-turn conversation	GPT-3.5	0.6516348365163483	1
+2	Physical Exam	Summarized conversation	GPT-3.5	0.027897210278972105	0.22317768223177684
+3	Physical Exam	Vignette	GPT-3.5	0.030796920307969204	0.22317768223177684
+4	Multi-turn conversation	Single-turn conversation	GPT-3.5	0.0842915708429157	0.3371662833716628
+5	Multi-turn conversation	Summarized conversation	GPT-3.5	0.0006999300069993001	0.006999300069993001
+6	Multi-turn conversation	Vignette	GPT-3.5	0.0022997700229977	0.0206979302069793
+7	Single-turn conversation	Summarized conversation	GPT-3.5	0.04939506049395061	0.24697530246975302
+8	Single-turn conversation	Vignette	GPT-3.5	0.0362963703629637	0.22317768223177684
+9	Summarized conversation	Vignette	GPT-3.5	0.514048595140486	1

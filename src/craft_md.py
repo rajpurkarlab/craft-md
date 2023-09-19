@@ -7,34 +7,32 @@ from .utils import *
 from .mcq_frq import *
 
 # Task specific functions
-def get_mcq_prompt(case, all_choices_path = None):
+def get_mcq_prompt(choices):
     system_prompt = " Based on the patient's symptoms described above and a list of possible diagnosis options,"
     system_prompt += " select the correct option, and give the answer as a short response. Do not explain."
-    if all_choices_path is None: 
-        system_prompt += " \n" + get_choices(case)
-    else: 
-        system_prompt += " \n" + get_all_choices(all_choices_path)
+    system_prompt += " \n Choices: " + choices
+    
     return system_prompt
 
-def get_choices(case, num_choices=4):
-    list_choices = 'Choices: ' + ', '.join([str(case[f"Choice {j}"]) for j in range(1, num_choices + 1)])
-    return list_choices
+# def get_choices(case, num_choices=4):
+#     list_choices = 'Choices: ' + ', '.join([str(case[f"Choice {j}"]) for j in range(1, num_choices + 1)])
+#     return list_choices
 
-def get_all_choices(path):
-    all_choices = pd.read_csv(path, header=None)[0].tolist()
-    list_all_choices = 'Choices: ' + ', '.join(all_choices)
-    return list_all_choices
+# def get_all_choices(path):
+#     all_choices = pd.read_csv(path, header=None)[0].tolist()
+#     list_all_choices = 'Choices: ' + ', '.join(all_choices)
+#     return list_all_choices
 
 def get_diagnosis_after_physical_exam_prompt():
     system_prompt = ' Now, stop asking questions and arrive at differential diagnosis, otherwise you will be penalized.'
     system_prompt += " You must state 'Final Diagnosis:' in the beginning of your response." 
     return system_prompt
 
-def get_physical_exam_prompt(case):
-    if not isinstance(case['Exam'], str):
+def get_physical_exam_prompt(exam):
+    if not isinstance(exam, str):
         system_prompt = "There is no physical examination result available for this patient."
     else: 
-        system_prompt = "Here is the examination result: " + case['Exam']
+        system_prompt = "Here is the examination result: " + exam
     return system_prompt
 
 ### CRAFT-MD Framework
@@ -59,22 +57,25 @@ def get_patient_prompt(case_desc):
     system_prompt += " Simplify terminology used in the given paragraph to layman language."
     return system_prompt
 
-def process_case_withPE(case, path, gpt_model, num_runs = 10):
+def process_case_withPE(case, dir_path, gpt_model, num_runs = 10):
     
     mapping = {"gpt-3.5": call_gpt3_api, "gpt-4": call_gpt4_api}
     
-    idx, case_desc, exam, mcq_choices, mcq_all_choices = case
+    idx, case_desc, exam, mcq_choices, mcq_many_choices = case
 
     print(f'thread for case idx: {idx} dispatched')
     
     doctor_prompt = get_doctor_prompt()
     patient_prompt = get_patient_prompt(case_desc)
     exam_prompt = get_physical_exam_prompt(exam)
-        
+
+    mcq_prompt = get_mcq_prompt(mcq_choices)
+    mcq_all_prompt = get_mcq_prompt(mcq_many_choices)
+    
     stats = {}
     j = 0
 
-    save_path = path + f'/case_{idx}.json'
+    save_path = dir_path + f'/case_{idx}.json'
     if os.path.exists(save_path): 
         with open(save_path, 'r') as f: 
             stats = json.load(f)
@@ -129,11 +130,11 @@ def process_case_withPE(case, path, gpt_model, num_runs = 10):
         conversation_history_doctor.pop()
  
         j += 1
-        with open(path + f'/case_{idx}.json', 'w') as f: 
-            json.dump(stats, f)
+        
+        json.dump(stats, open(dir_path + f'/case_{idx}.json', 'w'))
 
 
-def process_case_withoutPE(case, path, gpt_model, num_runs = 10):
+def process_case_withoutPE(case, dir_path, gpt_model, num_runs = 10):
     
     mapping = {"gpt-3.5": call_gpt3_api, "gpt-4": call_gpt4_api}
     
@@ -150,7 +151,7 @@ def process_case_withoutPE(case, path, gpt_model, num_runs = 10):
     stats = {}
     j = 0
 
-    save_path = path + f'/case_{idx}.json'
+    save_path = dir_path + f'/case_{idx}.json'
     if os.path.exists(save_path): 
         with open(save_path, 'r') as f: 
             stats = json.load(f)
@@ -199,5 +200,5 @@ def process_case_withoutPE(case, path, gpt_model, num_runs = 10):
         stats[f'trial_{j}_mcq'] = mcq
         stats[f'trial_{j}_mcq_all'] = mcq_all
         j += 1
-        with open(path + f'/case_{idx}.json', 'w') as f: 
-            json.dump(stats, f)
+        
+        json.dump(stats, open(dir_path + f'/case_{idx}.json', 'w'))

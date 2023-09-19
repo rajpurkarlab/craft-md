@@ -96,36 +96,39 @@ def eval_short_responses_multiple(response, answers, gpt_model):
         evals.append(eval_short_responses(response, ans, gpt_model))    
     return evals
 
-def eval_experiment(res_dict, exp_keys, method):
-    dataset = pd.read_csv(f"./data/dataset_final.tsv",sep="\t")  
-    
+def eval_experiment(res_dict, case_id, exp_keys, method, full_dataset, n_trials=10):    
     eval_functions = {"mcq_4":{"stringmatch":eval_fuzzy_string_match, "autoeval":eval_short_responses},
                       "mcq_many":{"stringmatch":eval_fuzzy_string_match_multiple, "autoeval":eval_short_responses_multiple},
                       "frq":{"stringmatch":eval_fuzzy_string_match_multiple, "autoeval":eval_short_responses_multiple},
                      }
-    for key in tqdm(res_dict):
-        ans = get_all_answers(key, dataset)
+    
+    ans_all = get_all_answers(case_id, full_dataset)
 
-        for k in exp_keys:
-            res_dict[key][k][f"{method}_raw"] = []
-            res_dict[key][k][f"{method}_raw"] = []
-            res_dict[key][k][f"{method}_raw"] = []
+    for k in exp_keys:
+        res_dict[k][f"{method}_raw"] = []
+        res_dict[k][f"{method}_raw"] = []
+        res_dict[k][f"{method}_raw"] = []
 
-        counts = [0]*len(exp_keys)
+    counts = [0]*len(exp_keys)
 
-        for i in range(10):
-            for k in range(len(exp_keys)):
-                if method=="stringmatch":
-                    temp = eval_functions[exp_keys[k]][method](res_dict[key][exp_keys[k]]["responses"][i], ans)
-                elif method=="autoeval":
-                    temp = eval_functions[exp_keys[k]][method](res_dict[key][exp_keys[k]]["responses"][i], ans, "gpt-4")
-                res_dict[key][exp_keys[k]][f"{method}_raw"].append(temp)
-                try:
-                    counts[k]+=max(temp)
-                except:
-                    counts[k]+=temp
+    for i in range(n_trials):
+        for k in range(len(exp_keys)):
+            if exp_keys[k]=="mcq_4":
+                ans = ans_all[0]
+            else:
+                ans = ans_all
+                
+            if method=="stringmatch":
+                temp = eval_functions[exp_keys[k]][method](res_dict[exp_keys[k]]["responses"][i], ans)
+            elif method=="autoeval":
+                temp = eval_functions[exp_keys[k]][method](res_dict[exp_keys[k]]["responses"][i], ans, "gpt-4")
+            res_dict[exp_keys[k]][f"{method}_raw"].append(temp)
 
-    for k in range(len(exp_keys)):
-        res_dict[key][exp_keys[k]][f"{method}_accuracy"] = counts[k]/10
+    for k in exp_keys:
+        if k=="mcq_4":
+            res_dict[k][f"{method}_accuracy"] = sum(res_dict[k][f"{method}_raw"])/n_trials
+        else:
+            res_dict[k][f"{method}_accuracy"] = (sum([x[0] for x in res_dict[k][f"{method}_raw"]])/n_trials,
+                                                 sum([max(x) for x in res_dict[k][f"{method}_raw"]])/n_trials)
         
     return res_dict

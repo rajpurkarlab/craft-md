@@ -3,7 +3,7 @@ import numpy as np
 def bootstrap_pvalue(sample1, sample2):
     
     # Set Random Seed
-    np.random.seed(31)
+    np.random.seed(20)
     
     # Assuming you have two paired sample datasets: sample1 and sample2
     # Calculate the observed test statistic for the original data (the mean of differences)
@@ -35,4 +35,4 @@ def bootstrap_pvalue(sample1, sample2):
     extreme_count = np.sum(np.abs(bootstrap_sample_statistics) >= np.abs(observed_statistic))
     p_value = (extreme_count + 1) / (num_bootstrap_samples + 1)  # Adding 1 to include the observed statistic
     
-    return p_value
+    return round(p_value,4)

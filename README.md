@@ -29,7 +29,7 @@ CRAFT-MD is a robust and scalable evaluation framework designed to assess the co
 </details>
 
 ### Updates
-- Jan 2025 : Our Nature Medicine paper is online ✨. We are also releasing a [Live Benchmark]() with new models! Track the progress of clinical reasoning capabilties of LLMs with us.
+<!-- - Jan 2025 : Our Nature Medicine paper is online ✨. We are also releasing a [Live Benchmark]() with new models! Track the progress of clinical reasoning capabilties of LLMs with us. -->
 - May 2024 : We got selected for a Poster Presentation at _SAIL 2024_.
 - Mar 2024 : We got selected for an Oral Presentation at _AAAI Spring Symposium for Clinical Foundation Models_ and won the **Best Paper Award**!🏆
 - Jan 2024 : We've updated our preprint with more models.

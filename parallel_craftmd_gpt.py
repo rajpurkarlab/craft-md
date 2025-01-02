@@ -14,7 +14,7 @@ from src.craftmd import craftmd_gpt
 if __name__ == "__main__":
     
     model_names = ["gpt4_1106", "gpt3_1106"]
-    dataset = pd.read_csv("./data/usmle_derm_dataset.csv", index_col=0)
+    dataset = pd.read_csv("./data/usmle_and_derm_dataset.csv", index_col=0)
 
     # Set number of threads for parallelization
     num_cpu = 7

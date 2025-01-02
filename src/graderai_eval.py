@@ -17,7 +17,6 @@ def graderai_evaluation(case_id, dataset, path_dir, experiment_names):
                
     for i in range(5):
         for exp in experiment_names:
-#             check if the key exists already
             if f"evaluation_{exp}" in res[f"trial_{i}"].keys():
                 continue 
             try:

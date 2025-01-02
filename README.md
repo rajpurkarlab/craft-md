@@ -2,7 +2,7 @@
 
 ## An Evaluation Framework for Conversational Reasoning in Clinical LLMs During Patient Interactions
 
-<!-- [Nature Medicine Paper](link) | [Live Benchmark](link) | [AAAI '24](https://openreview.net/forum?id=Bk2nbTDtm8)| [Cite Us](https://github.com/rajpurkarlab/craft-md?tab=readme-ov-file#citation) -->
+[Nature Medicine Paper](https://rdcu.be/d5ovt) | [Live Benchmark](https://rajpurkarlab.github.io/craft-md-pages/) | [AAAI '24](https://openreview.net/forum?id=Bk2nbTDtm8)| [Cite Us](https://github.com/rajpurkarlab/craft-md?tab=readme-ov-file#citation)
 
 <details>
   <summary>
@@ -29,7 +29,7 @@ CRAFT-MD is a robust and scalable evaluation framework designed to assess the co
 </details>
 
 ### Updates
-<!-- - Jan 2025 : Our Nature Medicine paper is online ✨. We are also releasing a [Live Benchmark]() with new models! Track the progress of clinical reasoning capabilties of LLMs with us. -->
+- Jan 2025 : Our Nature Medicine paper is online ✨. We are also releasing a [Live Benchmark](https://rajpurkarlab.github.io/craft-md-pages/) with 7 new models! Track the progress of clinical reasoning capabilties of LLMs with us.
 - May 2024 : We got selected for a Poster Presentation at _SAIL 2024_.
 - Mar 2024 : We got selected for an Oral Presentation at _AAAI Spring Symposium for Clinical Foundation Models_ and won the **Best Paper Award**!🏆
 - Jan 2024 : We've updated our preprint with more models.
@@ -49,10 +49,11 @@ To facilitate replication of our study's results, we provide the following scrip
 
 All code was tested with Python v3.9.17. You can recreate the environment using the provided `environment.yml` file. All open-source models were tested on Quadro RTX 8000 48gb GPU. The GPT-4 and GPT-3.5 models can be run on a personal laptops as well.
 
-<!-- ### Citation
+### Citation
 If you've found this work useful, please cite the following :
 
-Johri, S., Jeong, J., Tran, B. A., Schlessinger, D. I., Wongvibulsin, S., Barnes, L. A., ... & Rajpurkar, P. (2023). An Evaluation Framework for Conversational Reasoning in Clinical LLMs During Patient Interactions. Nat Med (2025). 
+Johri, S., Jeong, J., Tran, B.A. et al. An evaluation framework for clinical use of large language models in patient interaction tasks. Nat Med (2025). https://doi.org/10.1038/s41591-024-03328-5
+
 ```
 @article{johri2025craftmd,
   title={An Evaluation Framework for Conversational Reasoning in Clinical LLMs During Patient Interactions},
@@ -62,7 +63,7 @@ Johri, S., Jeong, J., Tran, B. A., Schlessinger, D. I., Wongvibulsin, S., Barnes
   year={2025}
 }
 ```
- -->
+
 ### Issues
 Please report issues directly to sjohri@g.harvard.edu.
 

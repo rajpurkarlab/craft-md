@@ -2,7 +2,7 @@
 
 ## An Evaluation Framework for Conversational Reasoning in Clinical LLMs During Patient Interactions
 
-[Nature Medicine Paper](https://rdcu.be/d5ovt) | [Live Benchmark](https://rajpurkarlab.github.io/craft-md-pages/) | [AAAI '24](https://openreview.net/forum?id=Bk2nbTDtm8)| [Cite Us](https://github.com/rajpurkarlab/craft-md?tab=readme-ov-file#citation)
+[Nature Medicine Paper](https://rdcu.be/d5ovt) | [Live Benchmark](https://rajpurkarlab.github.io/craft-md-pages/) | [SAIL '24](https://sail.health/wp-content/uploads/2024/05/Poster-5-Johri.pdf) | [AAAI '24](https://openreview.net/forum?id=Bk2nbTDtm8)| [Cite Us](https://github.com/rajpurkarlab/craft-md?tab=readme-ov-file#citation)
 
 <details>
   <summary>
@@ -30,7 +30,7 @@ CRAFT-MD is a robust and scalable evaluation framework designed to assess the co
 
 ### Updates
 - Jan 2025 : Our Nature Medicine paper is online ✨. We are also releasing a [Live Benchmark](https://rajpurkarlab.github.io/craft-md-pages/) with 7 new models! Track the progress of clinical reasoning capabilties of LLMs with us.
-- May 2024 : We got selected for a Poster Presentation at _SAIL 2024_.
+- May 2024 : We got selected for a [Poster Presentation](https://sail.health/wp-content/uploads/2024/05/Poster-5-Johri.pdf) at _SAIL 2024_.
 - Mar 2024 : We got selected for an Oral Presentation at _AAAI Spring Symposium for Clinical Foundation Models_ and won the **Best Paper Award**!🏆
 - Jan 2024 : We've updated our preprint with more models.
 - Aug 2023 : Our preprint is available online!
